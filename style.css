@@ -1,3 +1,12 @@
+/* import for Montserrat 600 weight font */
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@600&display=swap');
+
+/* import for Montserrat font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/* import for Krona One font */
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
 * {
 	margin: 0;
 	padding: 0;
@@ -5,7 +14,6 @@
 
 body {
 	box-sizing: border-box;
-	height: 100vh;
     background-color: black;
     color: #F6F6F6;
 }
@@ -15,6 +23,44 @@ body {
 }
 
 .container {
+	gap: 100px;
 	display: flex;
 	align-items: center;
+	justify-content: space-between;
+}
+
+.main {
+	box-sizing: border-box;
+	margin: 10vh 20vw;
+	font-size: 24px;
+}
+
+.main_text_title {
+	margin-bottom: 2em;
+	font-family: 'Krona One', sans-serif;
+	font-size: 36px;
+}
+
+.main_text_content {
+	margin-bottom: 2em;
+}
+
+.main_text {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.main-img {
+	box-sizing: border-box;
+}
+
+.main_ancor {
+	padding: 21.5px 0;
+	text-align: center;
+	border-radius: 16px;
+	background-color: #22D4FD;
+	text-decoration: none;
+	color: #000000;
+	width: 280px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
 }
